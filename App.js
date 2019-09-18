@@ -20,7 +20,6 @@ export default class RnDirectionsApp extends Component {
 
   componentDidMount() {
     // find your origin and destination point coordinates and pass it to our method.
-    // I am using Bursa,TR -> Istanbul,TR for this example
     this.getDirections("19.2114,72.8757", "19.209779,72.864515");
     this.getDistanceOneToOne("19.2114","72.8757","19.209779","72.864515");
   }
